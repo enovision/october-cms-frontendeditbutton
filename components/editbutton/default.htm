@@ -1,0 +1,17 @@
+<div id='frontend-edit-button' class='{{ __SELF__.vertical }} {{ __SELF__.horizontal }}'>
+    <div class='page-item' data-nav-id='/grav-cms{{ __SELF__.pageUrl }}'>
+        <a class='page-edit frontend-edit-button' target='_blank' href='{{ __SELF__.editUrl }}'>
+
+            {% if __SELF__.showIcon %}
+            <i class='icon-feb-editor'></i>
+            {% endif %}
+
+            {% if __SELF__.showLabel %}
+            <span class="label">
+               {{ __SELF__.buttonLabel | default('Edit') }}
+            </span>
+            {% endif %}
+
+        </a>
+    </div>
+</div>

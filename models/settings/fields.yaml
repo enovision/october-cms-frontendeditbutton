@@ -1,0 +1,51 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    plugin_enabled:
+        label: Enabled
+        disabled: false
+        type: switch
+        default: false
+        span: auto
+        comment: Plugin is enabled?
+    position:
+        label: Position
+        disabled: false
+        default: tr
+        type: dropdown
+        options:
+            tr: Top Right
+            tl: Top Left
+            br: Bottom Right
+            bl: Bottom Left
+        span: auto
+        comment: Position of the button on the display
+    show_label:
+        label: Show Label
+        disabled: false
+        type: switch
+        default: true
+        span: auto
+        comment: Show the button label?
+    show_icon:
+        label: Show Icon
+        disabled: false
+        type: switch
+        default: true
+        span: auto
+        comment: Show the icon on the button? When this and label are both false, label is used automatically
+    button_label:
+        label: Button Label
+        type: text
+        required: false
+        default: Edit Post
+        span: auto
+        comment: Text to put on the label, default "Edit Post"
+    edit_url:
+        label: Edit Url (don't change this if you not must)
+        type: text
+        default: rainlab/blog/posts/update/{id}
+        span: auto
+        comment: This has to be always "rainlab/blog/posts/update/{id}"

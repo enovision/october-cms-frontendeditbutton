@@ -1,0 +1,6 @@
+plugin:
+    name: 'enovision.frontendeditbutton::lang.plugin.name'
+    description: 'enovision.frontendeditbutton::lang.plugin.description'
+    author: Enovision
+    icon: oc-icon-arrows-alt
+    homepage: 'https://www.enovision.net/october-frontend-edit-button'
