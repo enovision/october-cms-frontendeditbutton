@@ -1,5 +1,7 @@
 # Frontend Edit Button #
 
+![](../sh_00509.png)
+
 ## What does it do?
 This plugin shows a nice `edit` button on the frontend when you are logged in and edit an blog article. When saving the article and clicking back to the article tab, it will automatically refresh.
 
