@@ -1,6 +1,6 @@
 # Frontend Edit Button #
 
-![Frontend Edit Button](../master/sh_00509.png)
+![Frontend Edit Button](./images/screenshot.png)
 
 ## What does it do?
 This plugin shows a nice `edit` button on the frontend when you are logged in and edit an blog article. When saving the article and clicking back to the article tab, it will automatically refresh.
@@ -22,9 +22,6 @@ The `enovision` folder might not exist, so you have to create that first.
 ## Settings
 
 You can modify the settings for this plugin when entering "Frontend" in the "Settings" of your October CMS installation. It will then show up under "Frontend Edit Button".
-
-
-
 
 
 
